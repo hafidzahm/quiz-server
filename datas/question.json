@@ -1,82 +1,42 @@
 [
   {
-    "id": 1,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "The Killer Whale is considered a type of dolphin.",
     "correct_answer": true
   },
   {
-    "id": 2,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "A slug's blood is green.",
     "correct_answer": true
   },
   {
-    "id": 3,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
     "correct_answer": true
   },
   {
-    "id": 4,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "The freshwater amphibian, the Axolotl, can regrow it's limbs.",
     "correct_answer": true
   },
   {
-    "id": 5,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "Kangaroos keep food in their pouches next to their children.",
     "correct_answer": false
   },
   {
-    "id": 6,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "A caterpillar has more muscles than humans do.",
     "correct_answer": true
   },
   {
-    "id": 7,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "In 2016, the IUCN reclassified the status of Giant Pandas from endangered to vulnerable.",
     "correct_answer": true
   },
   {
-    "id": 8,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "Cats have whiskers under their legs.",
     "correct_answer": true
   },
   {
-    "id": 9,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "Rabbits can see what's behind themselves without turning their heads.",
     "correct_answer": true
   },
   {
-    "id": 10,
-    "type": "boolean",
-    "difficulty": "easy",
-    "category": "Animals",
     "question": "A bear does NOT defecate during hibernation. ",
-    "correct_answer": "true"
+    "correct_answer": true
   }
 ]
