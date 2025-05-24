@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send({ message: "Quiz API" });
 });
 app.get("/questions", QuestionController.getAllQuestion);
-app.get("/questions/:questionId", QuestionController.getAllQuestion);
+app.get("/questions/:questionId", QuestionController.getQuestionById);
 app.use(errorHandler);
 
 app.listen(port, () => {

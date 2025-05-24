@@ -8,5 +8,19 @@ class QuestionController {
       throw error;
     }
   }
+
+  static async getQuestionById(req, res, next) {
+    try {
+      const { questionId } = req.params;
+      const quiz = await Quiz.findByPk(+questionId);
+      console.log(quiz);
+      if (!quiz) {
+        throw { name: "Not Found", message: "Quiz not found" };
+      }
+      return res.status(200).json({ quiz });
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 module.exports = QuestionController;
